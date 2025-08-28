@@ -1,7 +1,7 @@
 # scBiMapping
 Fast and Accurate Non-linear Dimensionality Reduction and Cell Annotation for Large and High-dimensional Single-Cell Datasets
 
-**Note: The initial version of this project was released on https://github.com/scBGI/scBiMapping, and subsequent maintenance of the project will be conducted here**
+**Note: The initial version of this project was released on https://github.com/scBGI/scBiMapping, and subsequent maintenance of the project will be conducted here, due to the login issue**
 
 # Install 
 pip install scBiMapping
