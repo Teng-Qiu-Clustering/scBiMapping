@@ -31,11 +31,7 @@ There are two major functions in scBiMapping, **scBiMapping_DR** and **scBiMappi
 * Key Inputs: 
   * **adata_ref**: referenc dataset (anndata format);
 
-  * **adata_query**: query dataset (anndata format); **Note: the feature set of reference and query datasets should be the same, by using the following setttings for instance**
- 
-    * intersection_feature = list(set(adata_ref.var_names) & set(adata_query.var_names))
-    * adata_ref = adata_ref[:,intersection_feature]
-    * adata_query = adata_query[:,intersection_feature]
+  * **adata_query**: query dataset (anndata format); 
 
   * **n_embedding**: an integer, denoting the number of embeddings (default to 30; slight adjustment may lead to better performance in practice);  
 
@@ -50,7 +46,7 @@ There are two major functions in scBiMapping, **scBiMapping_DR** and **scBiMappi
 
 ## Tutorials for tasks 1 and 2
 
-We provide several demos to further demonstrate how to conduct dimension reduction and reference-based cell type annotation using scBiMapping; Details can be found in https://github.com/scBGI/scBiMapping/tree/main/Turtorials.
+We provide several demos to further demonstrate how to conduct dimension reduction and reference-based cell type annotation using scBiMapping; see Details in the Turtorials file.
 
 ## Scripts to reproduce primary experimental results
 
