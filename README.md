@@ -1,7 +1,17 @@
 # scBiMapping
-Fast and Accurate Non-linear Dimensionality Reduction and Cell Annotation for Large and High-dimensional Single-Cell Datasets
+Fast and Accurate Non-linear **Dimensionality Reduction** and **Cell Annotation** for Large and High-dimensional Single-Cell Datasets
 
-**Note: The initial version of this project was released on https://github.com/scBGI/scBiMapping, and subsequent maintenance of the project will be conducted here, due to the login issue**
+**Note:**
+
+* In terms of **dimension reduction**, the proposed method demonstrates high effectiveness and efficiency on very large datasets, such as **Tahoe-100M** (the largest publicly available single-cell dataset to date, comprising over 100 million single-cell transcriptomes collected from 50 cancer cell lines);
+
+* For automatic reference-based **cell type annotation**, the proposed method exhibits strong performance on extremely large spatial omics datasets (ranging from millions to tens of millions of cells), including MerFish and Stereo-seq data.
+
+* For both dimension reduction and cell type annotation, neither GPU nor subsampling is needed.
+
+* The initial version of this project was released on https://github.com/scBGI/scBiMapping, and subsequent maintenance of the project will be conducted here, due to the login issue.
+
+
 
 # Install 
 pip install scBiMapping
@@ -51,4 +61,18 @@ We provide several demos to further demonstrate how to conduct dimension reducti
 ## Scripts to reproduce primary experimental results
 
 See the corresponding files in this github. See also reproducible program in codeOcean: https://codeocean.com/capsule/3904732/tree.
+
+## Processed datasets
+Processed small and large datasets used in this study can be downloaded at (all in .h5ad format):
+
+* https://doi.org/10.5281/zenodo.16396750 (Processed cell type annotation datasets for scBiMapping (Part II))
+
+* https://doi.org/10.5281/zenodo.15871971 (Pre-processed 100M scRNA cancer cell line datasets for scBiMapping (Part I))
+
+* https://doi.org/10.5281/zenodo.15871981 (Pre-processed 100M scRNA cancer cell line datasets for scBiMapping (Part II))
+
+* https://doi.org/10.5281/zenodo.16396750 (Processed cell type annotation datasets for scBiMapping (Part II))
+
+* https://doi.org/10.5281/zenodo.15380061 (Processed datasets for scBiMappinig evaluation)
+
 
