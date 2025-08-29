@@ -63,14 +63,14 @@ We provide several demos to further demonstrate how to conduct dimension reducti
 See the corresponding files in this github. See also reproducible program in codeOcean: https://codeocean.com/capsule/3904732/tree.
 
 ## Processed datasets
-Processed small and large datasets used in this study can be downloaded at (all in .h5ad format):
+Processed small and large public datasets in this study can be downloaded at (all in .h5ad format):
 
-* https://doi.org/10.5281/zenodo.16396750 (Processed cell type annotation datasets for scBiMapping (Part II))
+* https://doi.org/10.5281/zenodo.15871971 (Pre-processed Tahoe-100M scRNA-seq cancer cell line datasets for scBiMapping (Part I))
 
-* https://doi.org/10.5281/zenodo.15871971 (Pre-processed 100M scRNA cancer cell line datasets for scBiMapping (Part I))
+* https://doi.org/10.5281/zenodo.15871981 (Pre-processed Tahoe-100M scRNA-seq cancer cell line datasets for scBiMapping (Part II))
 
-* https://doi.org/10.5281/zenodo.15871981 (Pre-processed 100M scRNA cancer cell line datasets for scBiMapping (Part II))
-
+* https://doi.org/10.5281/zenodo.15826658 (Processed cell type annotation datasets for scBiMapping (Part I))
+  
 * https://doi.org/10.5281/zenodo.16396750 (Processed cell type annotation datasets for scBiMapping (Part II))
 
 * https://doi.org/10.5281/zenodo.15380061 (Processed datasets for scBiMappinig evaluation)
