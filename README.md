@@ -7,7 +7,7 @@ Fast and Accurate Non-linear **Dimensionality Reduction** and **Cell Annotation*
 
 **$\text{\color{red}Note}$:**
 
-* For both dimension reduction and cell type annotation, neither GPU nor subsampling is needed.
+* For both dimension reduction and cell type annotation, neither GPU nor subsampling of cells is needed.
 
 * The initial version of this project was released on https://github.com/scBGI/scBiMapping, and subsequent maintenance of the project will be conducted here, due to the login issue.
 
