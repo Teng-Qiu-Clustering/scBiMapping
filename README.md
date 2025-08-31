@@ -1,11 +1,11 @@
 # scBiMapping
-Fast and Accurate Non-linear **Dimensionality Reduction** and **Cell Annotation** for Large and High-dimensional Single-Cell Datasets
+Fast and Accurate Non-linear **Dimensionality Reduction** and **Cell Annotation** for Large and High-dimensional Single-Cell Datasets:
 
-**Note:**
+1. In terms of **dimension reduction**, the proposed method demonstrates high effectiveness and efficiency on very large datasets, such as **Tahoe-100M** (the largest publicly available single-cell dataset to date, comprising over 100 million single-cell transcriptomes collected from 50 cancer cell lines);
 
-* In terms of **dimension reduction**, the proposed method demonstrates high effectiveness and efficiency on very large datasets, such as **Tahoe-100M** (the largest publicly available single-cell dataset to date, comprising over 100 million single-cell transcriptomes collected from 50 cancer cell lines);
+2. For automatic reference-based **cell type annotation**, the proposed method exhibits strong performance on extremely large spatial omics datasets (ranging from millions to tens of millions of cells), including MerFish and Stereo-seq data.
 
-* For automatic reference-based **cell type annotation**, the proposed method exhibits strong performance on extremely large spatial omics datasets (ranging from millions to tens of millions of cells), including MerFish and Stereo-seq data.
+**$\text{\color{red}Note}$:**
 
 * For both dimension reduction and cell type annotation, neither GPU nor subsampling is needed.
 
@@ -16,9 +16,11 @@ Fast and Accurate Non-linear **Dimensionality Reduction** and **Cell Annotation*
 # Install 
 pip install scBiMapping
 
-*note1: the current version (v0.0.8) on PyPI has been compiled in python 3.11, and python 3.11 is necessary for using this package.*
+**$\text{\color{red}Note}$:**
 
-*note 2: if you are a BGIer, you can directly use the public image (named scBiMapping) on the cloud platform.*
+* the current version (v0.0.8) on PyPI has been compiled in python 3.11, and python 3.11 is necessary for using this package.*
+
+* if you are a BGIer, you can directly use the public image (named scBiMapping) on the cloud platform.*
 
 # How to use 
 There are two major functions in scBiMapping, **scBiMapping_DR** and **scBiMapping_annotation**, corresponding to the following two tasks.
