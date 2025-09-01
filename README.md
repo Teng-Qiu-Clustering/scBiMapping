@@ -62,7 +62,7 @@ We provide several demos to further demonstrate how to conduct dimension reducti
 
 ## Scripts to reproduce primary experimental results
 
-See the corresponding files in this github. See also reproducible program in codeOcean: https://codeocean.com/capsule/3904732/tree.
+See the reproducing_results file. See also reproducible program in codeOcean: https://codeocean.com/capsule/3904732/tree.
 
 ## Processed datasets
 Processed small and large public datasets in this study can be downloaded at (all in .h5ad format):
