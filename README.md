@@ -58,13 +58,13 @@ There are two major functions in scBiMapping, **scBiMapping_DR** and **scBiMappi
 
 ## Tutorials for tasks 1 and 2
 
-We provide several demos to further demonstrate how to conduct dimension reduction and reference-based cell type annotation using scBiMapping; see Details in the Turtorials file.
+We provide several demos to further demonstrate how to conduct dimension reduction and reference-based cell type annotation using scBiMapping; see Details in the Turtorials file (the test datasets are available at the following "Pre-procssed datasets" section).
 
 ## Scripts to reproduce primary experimental results
 
 See the reproducing_results file. See also reproducible program in codeOcean: https://codeocean.com/capsule/3904732/tree.
 
-## Processed datasets
+## Pre-processed datasets
 Processed small and large public datasets in this study can be downloaded at (all in .h5ad format):
 
 * https://doi.org/10.5281/zenodo.15871971 (Pre-processed Tahoe-100M scRNA-seq cancer cell line datasets for scBiMapping (Part I))
