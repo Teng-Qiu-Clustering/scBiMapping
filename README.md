@@ -71,10 +71,10 @@ Processed small and large public datasets in this study can be downloaded at (al
 
 * https://doi.org/10.5281/zenodo.15871981 (Pre-processed Tahoe-100M scRNA-seq cancer cell line datasets for scBiMapping (Part II))
 
-* https://doi.org/10.5281/zenodo.15826658 (Processed cell type annotation datasets for scBiMapping (Part I))
+* https://doi.org/10.5281/zenodo.15826658 (Pre-processed cell type annotation datasets for scBiMapping (Part I))
   
-* https://doi.org/10.5281/zenodo.16396750 (Processed cell type annotation datasets for scBiMapping (Part II))
+* https://doi.org/10.5281/zenodo.16396750 (Pre-processed cell type annotation datasets for scBiMapping (Part II))
 
-* https://doi.org/10.5281/zenodo.15380061 (Processed datasets for scBiMappinig evaluation)
+* https://doi.org/10.5281/zenodo.15380061 (Pre-processed datasets for scBiMappinig evaluation)
 
 
